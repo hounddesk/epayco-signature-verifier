@@ -21,8 +21,8 @@ $ npm i @hounddesk/epayco-signature-verifier
 ## Use the library
 
 ```js
-const signatureVerifier = require('@hounddesk/epayco-signature-verifier')
-const transactionIsLegit = signatureVerifier.verify({signature, transaction, separator}) 
+const { verify } = require('@hounddesk/epayco-signature-verifier');
+const transactionIsLegit = verify({signature, transaction, separator}) 
 ```
 
 ## Development
