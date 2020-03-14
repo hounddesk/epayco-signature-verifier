@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "ePayco Signature verifier used for transactions integrity checks",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "clean": "rm -Rf dist/",
-    "start:dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
+    "start:dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",

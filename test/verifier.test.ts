@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import verify from "../src/lib/verify";
+import { verify } from "../src";
 import { CurrencyCode, Signature, Transaction } from "../src/types";
 
 describe("Verifier test suite", function() {
