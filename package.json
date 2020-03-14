@@ -1,0 +1,50 @@
+{
+  "name": "@hounddesk/epayco-signature-verifier",
+  "version": "1.0.0",
+  "description": "ePayco Signature verifier used for transactions integrity checks",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -Rf dist/",
+    "start:dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hounddesk/epayco-signature-verifier.git"
+  },
+  "keywords": [
+    "epayco"
+  ],
+  "author": "R.R <degrammer@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hounddesk/epayco-signature-verifier/issues"
+  },
+  "homepage": "https://github.com/hounddesk/epayco-signature-verifier#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "modulePathIgnorePatterns": [
+      "npm-cache",
+      ".npm"
+    ],
+    "reporters": [
+      "default"
+    ]
+  },
+  "directories": {
+    "test": "test"
+  }
+}
