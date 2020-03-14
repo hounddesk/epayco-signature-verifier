@@ -18,6 +18,13 @@ Installation is done using the
 $ npm i @hounddesk/epayco-signature-verifier
 ```
 
+## Use the library
+
+```js
+const signatureVerifier = require('@hounddesk/epayco-signature-verifier')
+const transactionIsLegit = signatureVerifier.verify({signature, transaction, separator}) 
+```
+
 ## Development
 
 If you to contribute or run the project as standalone library
