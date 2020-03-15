@@ -12,6 +12,7 @@
     "start:dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "prepublish": "tsc"
   },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hounddesk/epayco-signature-verifier.git"
