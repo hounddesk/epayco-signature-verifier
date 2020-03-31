@@ -1,6 +1,8 @@
 # epayco-signature-verifier
 ePayco Signature verifier used for transactions integrity checks
 
+![npm (scoped)](https://img.shields.io/npm/v/@hounddesk/epayco-signature-verifier?style=plastic&logo=npm)
+
 - Follow up specific documentation here (in spanish only) (https://docs.epayco.co/payments/checkout)[https://docs.epayco.co/payments/checkout]
 
 ## Installation
