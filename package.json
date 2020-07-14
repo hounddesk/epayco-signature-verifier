@@ -30,7 +30,7 @@
   "homepage": "https://github.com/hounddesk/epayco-signature-verifier#readme",
   "devDependencies": {
     "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.1",
+    "@types/node": "^14.0.23",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1",
     "ts-node-dev": "^1.0.0-pre.44",
